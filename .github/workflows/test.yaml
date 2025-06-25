@@ -2,7 +2,7 @@ name: "MyFristWorkflow"
 on:
   push:
     branches:
-      - master
+      - test
 jobs:
   deployandrun:
     runs-on: ubuntu-latest
@@ -10,4 +10,4 @@ jobs:
       - run: echo "Hacemos pull del codigo"
       - run: echo "Correr Migraciones"
       - run: echo "Generar binarios"
-      - run: echo "Publicar Version"
+      - run: echo "Publicar Version1"
