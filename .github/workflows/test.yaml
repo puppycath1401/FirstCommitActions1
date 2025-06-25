@@ -5,7 +5,7 @@ on:
       - master
 jobs:
   deployandrun:
-    run on: ubuntu-latest
+    run-on: ubuntu-latest
     steps:
       - run: echo "Hacemos pull del codigo"
       - run: echo "Correr Migraciones"
